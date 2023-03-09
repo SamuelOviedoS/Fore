@@ -108,7 +108,7 @@ if (session_status() === PHP_SESSION_ACTIVE) {
             </div>
             <div class="dropdown">
                 <button class="dropbtn">
-                    <img src="../resources/icon/user.png" alt="user">
+                    <img src="../resources/icon/userw.png" alt="user">
                     <span>
                         <?php echo $user ?>
                     </span>
