@@ -44,13 +44,17 @@ body {
 }
 
 .responsive {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    aspect-ratio: 100 / 29;
-    min-height: 80%;
-    padding-bottom: 40px;
-  }
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  aspect-ratio: 100 / 29;
+  min-height: 80%;
+  padding-bottom: 40px;
+}
+.responsive img {
+    width: 400px;
+    height: auto;
+}

@@ -37,7 +37,7 @@
     </div>
 
     <div class="responsive">
-        <img src="../resources/img/support.jpg" alt="support">
+        <img src="../resources/img/support.jpg" alt="soporte">
     </div>
 </body>
 
