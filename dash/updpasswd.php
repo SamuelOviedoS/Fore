@@ -1,6 +1,6 @@
 <?php
 
-require '../moodleconn.php';
+require '.moodleconn.php';
 
 // Comprobar si se han enviado las variables necesarios
 if (isset($_POST['usuario']) && isset($_POST['contrasena'])) {
