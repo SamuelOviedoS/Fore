@@ -333,7 +333,7 @@ input:focus {
   height: auto;
   min-height: 100%;
   position: relative;
-  background-image: url("../img/students.jpg");
+  background-image: url("../resources/img/students.jpg");
   background-size: cover;
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;

@@ -84,7 +84,7 @@ if (session_status() === PHP_SESSION_ACTIVE) {
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
     </style>
-    <link rel="stylesheet" href="../css/dashsStyles.css">
+    <link rel="stylesheet" href="../css/dashStyles.css">
     <title>Panel</title>
     <link rel="shortcut icon" href="https://erp.unacifor.edu.hn/img/logout.png">
 </head>
