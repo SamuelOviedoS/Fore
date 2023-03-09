@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  margin: 0 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #0000acff;
+  color: #f1f1f1;
+  height: 50px;
+}
+
+.header .displayflex {
+  display: flex;
+  padding-left: 10rem;
+}
+
+.header .displayflex .item {
+  flex-grow: 12;
+  display: flex;
+}
+.header .displayflex .item h2 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.header .displayflex .item .site-logo-img img {
+  width: 40px;
+}
+
+.header span img {
+  width: 50px;
+  height: auto;
+  padding-top: 5px;
+}
+
+.responsive {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    aspect-ratio: 100 / 29;
+    min-height: 80%;
+    padding-bottom: 40px;
+  }
