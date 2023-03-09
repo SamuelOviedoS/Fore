@@ -288,7 +288,7 @@ if (session_status() === PHP_SESSION_ACTIVE) {
         }
 
         function rediBlt() {
-            window.location.href = "#";
+            window.location.href = "http://192.168.20.210";
 
         }
 
