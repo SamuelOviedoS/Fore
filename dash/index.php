@@ -12,6 +12,7 @@ $registrado = false;
 $error = "";
 $typebtn = "";
 $updpass = "";
+$token = "UatimPE9dKRJGnnVoSEQMOeLX5geX0SwRLn2frjYESA5utampZmXC3YMlPXQ";
 
 if (session_status() === PHP_SESSION_ACTIVE) {
     if (isset($_SESSION['login'])) {
@@ -171,7 +172,7 @@ if (session_status() === PHP_SESSION_ACTIVE) {
                 </div>
 
                 <form method="POST" action="https://erp.unacifor.edu.hn/login">
-                    <input type="hidden" name="_token" value="{{logintoken}}">
+                    <input type="hidden" name="_token" value="<?php echo $token ?>">
                     <div class="btn">
                         <input id="login" type="hidden" name="login" value="<?php echo $minusculas ?>">
                         <input id="password" type="hidden" name="password" value="<?php echo $password ?>">
