@@ -47,7 +47,7 @@
                 </a>
             </div>
             <div class="cont img-content">
-                <img src="./support.jpg" alt="support" />
+                <img src="../resources/img/support.jpg" alt="support" />
             </div>
         </div>
     </div>
