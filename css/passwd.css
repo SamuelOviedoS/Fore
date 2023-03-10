@@ -96,3 +96,25 @@ body {
   width: 550px;
   height: auto;
 }
+
+.content-btn .btnupd {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #16db65;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.content-btn .btnupd:hover {
+  background: #0eb454;
+}
+
+.content-btn .btnupd:active {
+  background: #058c42;
+}

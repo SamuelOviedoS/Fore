@@ -49,8 +49,18 @@
             <div class="cont img-content">
                 <img src="../resources/img/support.jpg" alt="support" />
             </div>
+            <div class="content-btn">
+                <button type="button" class="btnupd" id="upd-pwsd" onclick="updpassbtn()">
+                    <span class="btn-text">Volver</span>
+                    <span class="btn-icon">
+                        <ion-icon name="refresh-circle-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
         </div>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
