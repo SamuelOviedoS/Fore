@@ -23,21 +23,33 @@
                 <div>
                     <span class="site-logo-img">
                         <a href="https://unacifor.edu.hn/">
-                            <img src="https://erp.unacifor.edu.hn/img/logout.png" alt="siteLogo">
+                            <img src="https://erp.unacifor.edu.hn/img/logout.png" alt="siteLogo" />
                         </a>
                     </span>
                 </div>
                 <div>
-                    <h2>
-                        UNACIFOR | SIU
-                    </h2>
+                    <h2>UNACIFOR | SIU</h2>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="responsive">
-        <img src="../resources/img/support.jpg" alt="soporte">
+        <div class="container">
+            <div class="cont text-content">
+                <h3>Contactanos</h3>
+                <p>
+                    <strong>Si no recuerdas tu contraseña</strong>, favor ponerse en contacto con soporte
+                    técnico.
+                </p>
+                <a href="https://mail.google.com/mail/?view=cm&to=soporte@unacifor.edu.hn&su=Restablecimiento%20de%20contraseña&body=Hola,%20he%20perdido%20mi%20contraseña%20mi%20usuario%20es:">Enviar correo a:
+                    <strong>soporte@unacifor.edu.hn</strong>
+                </a>
+            </div>
+            <div class="cont img-content">
+                <img src="./support.jpg" alt="support" />
+            </div>
+        </div>
     </div>
 </body>
 
