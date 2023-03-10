@@ -12,7 +12,7 @@ $registrado = false;
 $error = "";
 $typebtn = "";
 $updpass = "";
-
+$token = "M5Nok3bkbUrBZTyxf3teoTlNJ6Rw3cpzVpVGBVzm";
 
 if (session_status() === PHP_SESSION_ACTIVE) {
     if (isset($_SESSION['login'])) {
@@ -171,16 +171,21 @@ if (session_status() === PHP_SESSION_ACTIVE) {
                     </button>
                 </div>
 
-                <div class="btn">
-                    <button class="btn3" id="btnPlt">
-                        <div class="img-box">
-                            <img src="../resources/icon/userplat.png" alt="user">
-                        </div>
-                        <h3>
-                            <?php echo $texto ?>
-                        </h3>
-                    </button>
-                </div>
+                <form method="POST" action="https://erp.unacifor.edu.hn/login">
+                    <input type="hidden" name="_token" value="<?php echo $token ?>">
+                    <div class="btn">
+                        <input id="login" type="hidden" name="login" value="<?php echo $minusculas ?>">
+                        <input id="password" type="hidden" name="password" value="<?php echo $password ?>">
+                        <button class="btn3" id="btnPlt" type="submit">
+                            <div class="img-box">
+                                <img src="../resources/icon/userplat.png" alt="user">
+                            </div>
+                            <h3>
+                                <?php echo $texto ?>
+                            </h3>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
