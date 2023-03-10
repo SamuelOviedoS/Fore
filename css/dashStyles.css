@@ -525,6 +525,15 @@ footer p {
     height: 72rem;
     min-height: 100%;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 }
 
 @media (max-width: 730px) {
@@ -608,7 +617,7 @@ footer p {
     font-size: 14px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .backg {
     background-color: rgba(255, 255, 255, 0.85);
     position: relative;
