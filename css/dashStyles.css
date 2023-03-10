@@ -516,6 +516,15 @@ footer p {
   .dropdown .dropbtn span {
     font-size: 15px;
   }
+  .responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 100 / 29;
+    height: 72rem;
+    min-height: 100%;
+  }
 }
 
 @media (max-width: 730px) {
