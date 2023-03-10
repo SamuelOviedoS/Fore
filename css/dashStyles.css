@@ -505,17 +505,7 @@ footer p {
     padding-left: 15%;
     color: #ffffff;
   }
-}
-
-@media (max-width: 768px) {
-  .header .displayflex .item h2 {
-    padding-left: 10px;
-    padding-top: 9px;
-    font-size: 13px;
-  }
-  .dropdown .dropbtn span {
-    font-size: 15px;
-  }
+  
   .responsive {
     display: flex;
     justify-content: center;
@@ -533,6 +523,17 @@ footer p {
     align-items: center;
     justify-content: center;
     height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .displayflex .item h2 {
+    padding-left: 10px;
+    padding-top: 9px;
+    font-size: 13px;
+  }
+  .dropdown .dropbtn span {
+    font-size: 15px;
   }
 }
 
