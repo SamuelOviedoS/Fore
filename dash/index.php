@@ -12,7 +12,7 @@ $registrado = false;
 $error = "";
 $typebtn = "";
 $updpass = "";
-$token = "M5Nok3bkbUrBZTyxf3teoTlNJ6Rw3cpzVpVGBVzm";
+$token = "nBJjqouDlWA3Iunqnoiv2VGENzgURP6sJNFyDf2L";
 
 if (session_status() === PHP_SESSION_ACTIVE) {
     if (isset($_SESSION['login'])) {
