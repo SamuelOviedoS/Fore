@@ -65,7 +65,7 @@ body {
 .text-content {
   color: #000000;
   background-color: #c1dbff;
-  height: 80%;
+  height: 85%;
   width: 450px;
   align-items: center;
   text-align: center;
@@ -83,7 +83,7 @@ body {
 .text-content p {
   padding: 30px;
   font-size: 16px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .text-content a {
@@ -97,11 +97,15 @@ body {
   height: auto;
 }
 
+.content-btn {
+  padding-top: 90px;
+}
+
 .content-btn .btnupd {
   display: inline-flex;
   height: 50px;
   padding: 0;
-  background: #16db65;
+  background: rgb(96, 167, 255);
   border: none;
   outline: none;
   border-radius: 5px;
@@ -111,10 +115,24 @@ body {
   cursor: pointer;
 }
 
+.content-btn .btn-text,
+.content-btn .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.content-btn .btn-icon {
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
 .content-btn .btnupd:hover {
-  background: #0eb454;
+  background: #4477b6;
 }
 
 .content-btn .btnupd:active {
-  background: #058c42;
+  background: #335988;
 }
