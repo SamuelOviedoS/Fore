@@ -541,6 +541,10 @@ footer p {
     height: 280px;
     width: 180px;
   }
+  .error-content p {
+    font-size: 15px;
+  }
+  
 }
 
 @media (max-width: 768px) {
